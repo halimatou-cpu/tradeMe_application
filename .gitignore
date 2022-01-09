@@ -3,8 +3,18 @@
 
 # Log file
 *.log
-/.idea
 /target.
+!.mvn/wrapper/maven-wrapper.jar
+OUTPUT/
+
+# IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Macos
+*.DS_Store
 
 # BlueJ files
 *.ctxt
